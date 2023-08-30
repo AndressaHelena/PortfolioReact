@@ -8,7 +8,7 @@ export default function Projects() {
             <div>
             <ul>
             <li className="flex">
-                    <img className="img" src="src/assets/image/integral.jpg"/>
+                    <img className="img" src="/image/integral.jpg"/>
                     <div className="dados">
                         <h3 className="title">Agendamento</h3>
                         <h4 className="gray">Challenge full-Stack com Power Apps e SharePoint.</h4>
@@ -16,7 +16,7 @@ export default function Projects() {
                     </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="src/assets/image/destino.jpg"/>
+                    <img className="img" src="/image/destino.jpg"/>
                     <div className="dados">
                         <h3 className="title">Revelar seu destino</h3>
                         <h4 className="gray">Maratona Rocktseat com HTML, CSS e JavaScript.</h4>
@@ -25,7 +25,7 @@ export default function Projects() {
                         </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="src/assets/image/Nutri.png"/>
+                    <img className="img" src="/image/Nutri.png"/>
                     <div className="dados">
                         <h3 className="title">Nutricionista</h3>
                         <h4 className="gray">Challenge Alura com HTML, CSS e JavaScript.</h4>
@@ -34,7 +34,7 @@ export default function Projects() {
                     </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="src/assets/image/frases.jpg"/>
+                    <img className="img" src="/image/frases.jpg"/>
                     <div className="dados">
                         <h3 className="title">Frases Biblicas</h3>
                         <h4 className="gray">Challenge Rocktseat com HTML, CSS e JavaScript.</h4>
@@ -43,7 +43,7 @@ export default function Projects() {
                         </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="src/assets/image/deco.jpg"/>
+                    <img className="img" src="/image/deco.jpg"/>
                     <div className="dados">
                         <h3 className="title">Decodificador de texto</h3>
                         <h4 className="gray">Challenge Alura com HTML, CSS e JavaScript.</h4>
@@ -52,7 +52,7 @@ export default function Projects() {
                     </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="src/assets/image/financeiro.png"/>
+                    <img className="img" src="/image/financeiro.png"/>
                     <div className="dados">
                         <h3 className="title">Sistema Financeiro</h3>
                         <h4 className="gray">Challenge B7web com React, Typescrip e styled Components. </h4>
@@ -62,7 +62,7 @@ export default function Projects() {
                     </div>
                 </li>
                 <li className="flex">
-                    <img className="img" src="/src/assets/image/agenda.png"/>
+                    <img className="img" src="/image/agenda.png"/>
                     <div className="dados">
                         <h3 className="title">Agendamento Médico</h3>
                         <h4 className="gray">Challenge Avanade em grupo com Angular, C# e SQL server.</h4>

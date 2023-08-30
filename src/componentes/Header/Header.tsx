@@ -11,7 +11,7 @@ export default function Header() {
                     <a className="green" href="mailto:andressa.h.moreira@avanade.com">Vamos conversar!</a>
                 </div>
                 <div>
-                    <img src="/src/assets/image/dev.png" alt="" />
+                    <img src="/image/dev.png" alt="" />
                 </div>
                 
             </div>
