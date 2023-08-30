@@ -1,0 +1,55 @@
+  .header  {
+    justify-content: space-between;
+    padding: 1rem 1rem 3rem 3rem;
+    height: 650px;
+    
+  }
+  
+  .header h1 {
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .header h3{
+    margin-bottom: 9rem;
+    font-size: 1rem;
+  }
+  .header p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .header button {
+    cursor: text;
+    margin-bottom: 4rem;
+    
+  }
+  .header a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+
+  /* --------- Responsive Design --------- */
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem 2rem;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  nav ul, nav ul li, .active {
+    display: none;
+  }
+  .header {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  section {
+    padding: 1rem 2rem;
+  }
+}
+ 

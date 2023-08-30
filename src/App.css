@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Mono';
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+.dark-bg {
+  background-color: #25262A;
+}
+.light-bg {
+  background-color: #2D2E32;
+}
+.transparente{
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.orange{
+  color: #FF5800;
+}
+
+.white {
+  color: #FFFFFF;
+}
+.gray {
+  color: #777777;
+}
+.green {
+  color: #4dba87;
+}
+.pink{
+  color: #f82d97;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-full {
+  flex: 1;
+}
+.justify-space {
+  justify-content: space-between;
+}
+section {
+  padding: 5rem 5rem;
+}
+button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  color: #2D2E32;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: #4dba87;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* --------- Responsive Design --------- */
+@media (max-width: 768px) {
+  .flex {
+    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
