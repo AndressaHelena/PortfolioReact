@@ -1,6 +1,6 @@
   .header  {
     justify-content: space-between;
-    padding: 1rem 1rem 3rem 3rem;
+    padding: 3rem 1rem 3rem 3rem;
     height: 650px;
     
   }
@@ -27,13 +27,27 @@
     
   }
   .header a {
-    font-size: 1.1rem;
+    width: 80%;
+    font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: underline;
     cursor: pointer;
+    display: block;
+    text-align: center;
 
   }
+  .header h3{
+    margin-bottom: 2rem;
+  }
+  
+  img{
+    margin-top: 3rem;
+    height: 60%;
+    width: 80%;
+    
+  }
+
 
   /* --------- Responsive Design --------- */
 @media (max-width: 768px) {
@@ -46,10 +60,29 @@
     display: none;
   }
   .header {
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 1rem 1rem 0rem 1rem;
+    display: block;
+    height: 50rem;
   }
-  section {
-    padding: 1rem 2rem;
+  .header button {
+    margin-bottom: 2rem;
+    
+  }
+
+  img{
+    height: 60%;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .header a {
+    width: 100%;  
+  }
+
+  .header .email{
+    color: #f82d97;
+    margin-top: 20px;
   }
 }
  

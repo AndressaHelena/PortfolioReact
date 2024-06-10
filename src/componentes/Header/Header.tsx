@@ -6,12 +6,13 @@ export default function Header() {
             <div className="header flex light-bg">
                 <div>                
                     <button className="transparente">Avanade Brasil</button>
-                    <h1 className="white">Assoc, Full-Stack Dev</h1>
-                    <h3 className="gray">Software Engineering TC</h3>
-                    <a className="green" href="mailto:andressa.h.moreira@avanade.com">Vamos conversar!</a>
+                    <h1 className="white">Jr Analyst</h1>
+                    <h3 className="gray">Power Platform</h3>
+                    
                 </div>
                 <div>
-                    <img src="/image/dev.png" alt="" />
+                    <img src="/image/devgirl.png" alt="" />
+                    <a className="email white" href="mailto:andressa.h.moreira@avanade.com">Vamos conversar!</a>
                 </div>
                 
             </div>
