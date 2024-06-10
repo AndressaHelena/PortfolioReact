@@ -5,9 +5,10 @@ export default function Header() {
         <header>
             <div className="header flex light-bg">
                 <div>                
-                    <button className="transparente">Avanade Brasil</button>
+                    <button className="transparente orange">Avanade Brasil</button>
                     <h1 className="white">Jr Analyst</h1>
-                    <h3 className="gray">Power Platform</h3>
+                    <h2 className="gray">Power Platform</h2>
+                    <h3 className="gray">Formada em Analises e Desenvolvimento de Sistemas</h3>
                     
                 </div>
                 <div>

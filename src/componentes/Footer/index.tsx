@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer id ="footer" className="light-bg flex justify-space">
             <span className="white">Copyright © {year} <a href="/">Andressa</a></span>
-            <ul className="flex">
+            <ul className="flex green">
                 <li>
                     <a href="https://www.linkedin.com/in/andressa-helena/" target="_blank" rel="noreferrer">
                         <FaLinkedin size={30}/>
